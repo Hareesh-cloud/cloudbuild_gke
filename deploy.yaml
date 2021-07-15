@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: gcr.io/resounding-rune-310809/tomcat
+        image: gcr.io/decent-habitat-315907/tomcat
         imagePullPolicy: IfNotPresent        
         ports:
         - containerPort: 8080
